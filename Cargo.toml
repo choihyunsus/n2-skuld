@@ -1,0 +1,33 @@
+[package]
+name = "n2-skuld"
+version = "1.0.0"
+edition = "2021"
+rust-version = "1.98"
+description = "Source debt scanning, temporal priority and Soul-compatible durable archival"
+license = "MIT"
+repository = "https://github.com/choihyunsus/n2-skuld"
+include = ["src/**/*.rs", "src/**/*.sql", "tests/**/*.rs", "Cargo.toml", "Cargo.lock", "LICENSE", "README.md", "README.ko.md", "THIRD-PARTY-NOTICES"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+chrono = { version = "0.4", features = ["serde"] }
+regex = "1"
+rusqlite = { version = "0.41.1", features = ["bundled"] }
+uuid = { version = "1", features = ["v4"] }
+fs2 = "0.4"
+same-file = "1"
+clap = { version = "4.6", features = ["derive"] }
+tree-sitter = "0.25"
+tree-sitter-rust = "0.23"
+tree-sitter-typescript = "0.23"
+tree-sitter-javascript = "0.23"
+tree-sitter-python = "0.23"
+tree-sitter-go = "0.23"
+tree-sitter-java = "0.23"
+tree-sitter-c = "0.24"
+tree-sitter-cpp = "0.23"
+tree-sitter-bash = "0.25"
+
+[dev-dependencies]
+tempfile = "3"

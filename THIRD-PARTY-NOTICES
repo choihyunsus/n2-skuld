@@ -1,0 +1,14 @@
+n2-skuld derives source-debt scanning, category freshness and archival concepts
+from the MIT-licensed N2 Daebung Skuld module, copyright 2026 N2 AI Family.
+
+The common Soul SQL schema derives from the MIT-licensed n2-mimir Rust core,
+copyright 2026 N2 AI Family. The full MIT text is included in LICENSE.
+
+Cargo.lock records exact external dependency versions. Cargo retrieves their
+source packages and corresponding license files during a build. Principal
+dependencies include rusqlite and libsqlite3-sys (MIT), SQLite (public domain),
+Tree-sitter and its language grammars (MIT), clap (MIT OR Apache-2.0), serde
+and serde_json (MIT OR Apache-2.0), regex (MIT OR Apache-2.0), chrono (MIT OR
+Apache-2.0), uuid (Apache-2.0 OR MIT), fs2 (MIT OR Apache-2.0), and same-file
+(Unlicense OR MIT). See each dependency's package license before redistributing
+compiled binaries.
