@@ -6,7 +6,20 @@
 
 [English](README.md)
 
+<p align="center">
+  <img src="https://github.com/choihyunsus/n2-skuld/raw/refs/heads/main/docs/images/comic.png" alt="코드에 남은 할 일을 찾고 목록으로 확인합니다. 별도 보관 기능으로 오래된 경험을 보관하고 다시 찾을 수도 있습니다." width="640">
+</p>
+
+코드에 남은 할 일을 찾고 목록으로 확인합니다. 별도 보관 기능으로 오래된 경험을 보관하고 다시 찾을 수도 있습니다.
+
+기능을 이야기로 표현한 만화입니다. 실제 앱 화면은 아닙니다.
+
+<details>
+<summary>동작 흐름 펼쳐 보기</summary>
+
 ![코드와 기록 선택 → 할 일 검사 또는 보관 → 보고서와 회상](https://github.com/choihyunsus/n2-skuld/raw/refs/heads/main/docs/images/overview.ko.svg)
+
+</details>
 
 ## 이런 때 사용하세요
 

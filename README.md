@@ -6,7 +6,20 @@
 
 [한국어](README.ko.md)
 
+<p align="center">
+  <img src="https://github.com/choihyunsus/n2-skuld/raw/refs/heads/main/docs/images/comic.png" alt="Find unfinished work in source code, and archive and recall older experience records." width="640">
+</p>
+
+Find unfinished work in source code, and archive and recall older experience records.
+
+A story illustrating the feature, rather than a screenshot of the app.
+
+<details>
+<summary>View the workflow</summary>
+
 ![Choose code or records → Scan or archive → Read reports and recall](https://github.com/choihyunsus/n2-skuld/raw/refs/heads/main/docs/images/overview.svg)
+
+</details>
 
 ## When to use it
 
